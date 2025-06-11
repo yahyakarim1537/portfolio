@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+}
+.top-container{
+    text-align: center;
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #CCB0B0 ;
+    position: relative;
+    padding-top: 100px;
+    overflow: hidden;
+}
+h1{
+    font-size: 4.625rem;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0;
+   
+}
+.subtitle{
+    font-size: 5.625rem;
+    color: #000000;
+    margin-top: 0px;
+}
+.cat{
+    margin-top: -100px;
+    max-width: 30rem;
+    max-height: 30rem;
+    margin-left: auto; /* For centering block elements with max-width */
+    margin-right: auto; /* For centering block elements with max-width */
+    position: relative; /* If you add elements on top, this might be useful */
+    bottom: -4px; /* Common trick to remove tiny space under images */
+}
+.top-image{
+    position: absolute;
+  z-index: 1; /*ensures the image is behind*/
+    height: 50%;
+    top: 0;
+    right: 2%;
+}
+.bottom-image{
+    position: absolute;
+    z-index: 1; /*ensures the image is behind*/
+    height: 50%;
+    top: 0;
+    left: 2%;
+}
+.middle-container{
+    text-align: center;
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #FFF2EB ;
+    position: relative;
+    padding-top: 100px;
+    overflow: hidden;
+}
+.pfp{
+    border-radius: 50%;
+    max-width: 10%;
+    max-height: 10%;
+}
+#Greeting{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 5rem;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.second-para{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: #000000;
+    margin-top: 0px;
+    text-align: center;
+    padding: 70px 0;
+    align-items: center;
+}
+#skills{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 5rem;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 30px 0;
+}
+
+/* Each skill block (image + text) is laid out horizontally */
+.skills-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  max-width: 900px;
+  width: 100%;
+  flex-wrap: wrap; /* Helps on smaller screens */
+}
+
+/* Keeps both images the same size */
+.skills-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+/* Text formatting */
+.skills-text {
+  padding-left: 30px;
+  max-width: 500px;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: left;
+  font-size: 3rem;
+ padding-bottom: 100px;
+}
+
+.skills-text h3 {
+    padding-left: 30px;
+  font-size: 4rem;
+  font-weight: bold;
+  
+}
+
+.bottom-container{
+    text-align: center;
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #FFF2EB ;
+    position: relative;
+    padding-top: 100px;
+    overflow: hidden;
+}
+#heading-three{
+        padding-top: 50px;
+    text-align: center;
+    font-size: 5rem;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.bottom-container p{
+    font-size: 3rem;
+    color: #000000;
+    margin-top: 0px;
+    text-align: center;
+    padding: 70px 0;
+}
+.button{
+    background-color: #CCB0B0;
+    border-radius: 10px;
+    font-size: 40px;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 100px;
+    margin-top: -200px;
+}
+.button:hover{
+    background-color: #A98C8C;
+}
+.bottom{
+    background-color: #CCB0B0;
+    padding: 50px 0 20px; /* Top, right/left, bottom padding */
+    text-align: center;
+}
+.footer-link {
+    color: #009ac7; /* Darker teal for links */
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 20px; /* Space between links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease-in-out;
+}
